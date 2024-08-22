@@ -2,8 +2,6 @@ module github.com/sebastiaofortes/colibri-example
 
 go 1.22.2
 
-require github.com/colibri-project-io/colibri-sdk-go v1.0.0-di
-
 require (
 	cloud.google.com/go v0.110.8 // indirect
 	cloud.google.com/go/compute v1.23.0 // indirect
@@ -19,6 +17,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
+	github.com/colibri-project-io/colibri-sdk-go v0.0.6-0.20240810005845-91372e4a6a6b // indirect
 	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
 	github.com/go-logr/logr v1.2.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -92,5 +91,3 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/colibri-project-io/colibri-sdk-go => /Users/sfortes/go/pkg/mod/github.com/sebastiaofortes/colibri-sdk-go@v1.0.0-di
